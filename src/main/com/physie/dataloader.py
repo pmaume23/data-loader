@@ -29,7 +29,7 @@ class Dataloader:
             return "Failed to load the file"
 
 def main():
-    app = Dataloader("csv","true","true","/Users/physiwellmaume/Desktop/myProjects/basicDataLoader/data/housing.csv")
+    app = Dataloader("csv","true","true","../../../../data/housing.csv")
     app.load_file()
 
 if __name__ == "__main__":
